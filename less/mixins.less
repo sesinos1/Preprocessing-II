@@ -1,1 +1,18 @@
 // Mixins in here
+
+.buttoned(@radius) {
+    font-size: 2rem;
+    display: inline-block;
+       margin: 4px 2px;
+       padding: 10px 27px;
+       text-align: center;
+       border-radius: @radius;
+       text-decoration: none;
+       color: @white;
+       background-color: @button-bg;
+
+        &:hover {
+            background-color: white;
+          color: @button-bg;
+        }
+}
